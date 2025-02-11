@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -Wextra -pedantic -std=c99 -I./micrograd.c -I./test
+CFLAGS = -Wall -Wextra -pedantic -std=gnu99 -I./micrograd.c -I./test
 LDFLAGS = -lm
 
 SOURCES = main.c train.c micrograd.c/engine.c micrograd.c/nn.c test/test.c
